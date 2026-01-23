@@ -14,11 +14,11 @@ while (i < n) {
 
 //3 do while loop
 
-let n = prompt("enter the value of n");
-let i = 0;
+let x = prompt("enter the value of n");
+let y = 0;
 
 do{
-  console.log(i);
-  i++;
+  console.log(y);
+  y++;
 }
-while(i<n)
+while(y<x)

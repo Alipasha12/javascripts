@@ -15,10 +15,11 @@ console.log(class_mark)
 class_mark[0] = 94
 console.log(class_mark)
 
-//array is object and can be change so it is mutable
 
 //to finding type of array
 console.log(typeof clss_mark)
 
 //finding length of array 
 console.log(class_mark.length)
+
+//type of array is object and can be change so it is mutable
