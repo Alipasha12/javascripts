@@ -1,5 +1,6 @@
 let name = "Ali Abbas"
-
+name[0]="a"
+console.log(name)
 //for calculate the kength of string
 console.log(name.length)
 
