@@ -1,5 +1,5 @@
-//1: for loop
-for (i = 0; i < 10; i++) {
+// 1:for loop
+for (let i = 0; i < 10; i++) {
   console.log(i);
 }
 
@@ -22,3 +22,17 @@ do{
   y++;
 }
 while(y<x)
+
+//4 for of 
+
+let num = [10, 20, 30, 40, 50]
+for(let item of num){
+  console.log(item)
+}
+
+//5 for in
+
+for(let arrItem in num){
+  console.log(arrItem) // it give item keys
+  console.log(num[arrItem])//it give value of key
+}
