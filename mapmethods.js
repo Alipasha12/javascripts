@@ -9,14 +9,14 @@ arr.map((value)=>{
 
 // 2: Filter method  (in this array pass a test and crete new array)
 
-arrfilter = arr.filter((a)=>{
+arr_filter = arr.filter((a)=>{
     return a > 50
 })
-console.log(arrfilter)
+console.log(arr_filter)
 
 // 3: Reduce method (it give a single value)
 
-arrreduce = arr.reduce((h1, h2)=>{
+arr_reduce = arr.reduce((h1, h2)=>{
     return h1 + h2
 })
-console.log(arrreduce)
+console.log(arr_reduce)
