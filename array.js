@@ -19,3 +19,6 @@ console.log(class_mark)
 
 //to finding type of array
 console.log(typeof clss_mark)
+
+//finding length of array 
+console.log(class_mark.length)
