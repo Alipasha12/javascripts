@@ -18,4 +18,13 @@ let d = id1.setAttribute("class", "box sachin")// it give the class box sachin
 
 // 4: removeAttribute is used to remove the attribute from the element
 
-let c = id1.removeAttribute("box")
+let e = id1.removeAttribute("box")
+
+// 5: we can also make the attribute
+//syntax: we use "data-" and use dataset
+
+<div id="box" data-game="mario" data-player="ali"> hello </div>
+
+console.log(id.dataset)//its give the domNodeList
+console.log(id.dataset.game)
+console.log(id.dataset.player)
