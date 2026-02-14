@@ -14,3 +14,10 @@ const titles = document.querySelectorAll(.classname)
  titles[1].style.color = "blue"
  titles[2].style.color = "green"
  console.log(titles)
+
+
+ //there are three important methods to search the dom
+
+ elem.matches(css)// check element matches thegiven css selector
+ elem.closest(css)// check the ancestor matches the given css selector
+ elemA.contains(elemB)//it check the elemA is contain elemB 
