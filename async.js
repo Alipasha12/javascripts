@@ -1,10 +1,10 @@
 async function harry(){
-    let delhiWeather = new Promise((resolve,result)=>{
+    let delhiWeather = new Promise((resolve,reject)=>{
             setTimeout(()=>{
                 resolve(1)
             },1000)
     })
-    let mumbaiWeather= new Promise((resolve,result)=>{
+    let mumbaiWeather= new Promise((resolve,reject)=>{
         setTimeout(()=>{
             resolve(2)
         },2000)

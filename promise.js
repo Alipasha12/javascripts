@@ -1,6 +1,6 @@
 //promises in javascripts
 
-let p1 = new Promise((resolve,result)=>{
+let p1 = new Promise((resolve,reject)=>{
     setTimeout(()=>{
         console.log("hello after 2 sec")
     },2000)

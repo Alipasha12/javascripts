@@ -2,19 +2,19 @@
 
 // 1: Promise.all  {its used to await until all promise are completed and gives result at same time}
 // {its give error if there is any reject }
-let p1 = new Promise((resolve,result)=>{
+let p1 = new Promise((resolve,reject)=>{
     setTimeout(()=>{
         resolve(1);
     },1000);
 })
 
-let p2 = new Promise((resolve,result)=>{
+let p2 = new Promise((resolve,reject)=>{
     setTimeout(()=>{
         resolve(10)
     },2000)    
 });
 
-let p3 = new Promise((resolve,result)=>{
+let p3 = new Promise((resolve,reject)=>{
     setTimeout(()=>{
         resolve(20)
     },3000)
@@ -41,7 +41,7 @@ all_promise.then((value)=>{
 
 // 2 : Promise.allsettled : its used when there is rejected its run
 
-let p4 = new Promise((resolve,result)=>{
+let p4 = new Promise((resolve,reject)=>{
     setTimeout(()=>{
         resolve(1);
     },1000);
@@ -53,7 +53,7 @@ let p5 = new Promise((resolve,reject)=>{
     },2000)    
 });
 
-let p6 = new Promise((resolve,result)=>{
+let p6 = new Promise((resolve,reject)=>{
     setTimeout(()=>{
         resolve(20)
     },3000)
