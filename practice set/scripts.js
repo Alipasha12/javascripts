@@ -74,3 +74,18 @@
 // console.log(h, m, s)
 // }
 // setInterval((updateClock),1000);
+
+//<---------------------------------increase number container-------------------------------------------->
+
+
+let count1 = document.querySelector('.count')
+let countnumber = 0;
+let maxcount = 899;
+const updateNumber = setInterval(()=>{
+    countnumber++;
+    count1.textContent = countnumber
+    if(countnumber >= maxcount){
+        clearInterval(updateNumber);
+        count1.style.color = 'red'
+    }
+},10)
